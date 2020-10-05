@@ -1,0 +1,21 @@
+{
+    "name": "sundowncolortheme",
+    "displayName": "SundownColorTheme",
+    "description": "A color theme for vs code mimicing the Visual Assist color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sundown Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sundown Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
